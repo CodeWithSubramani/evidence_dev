@@ -1,0 +1,11 @@
+# This file was automatically generated
+name: datamarket
+type: postgres
+options:
+  host: localhost
+  port: 35021
+  database: datamarket
+  ssl:
+    rejectUnauthorized: false
+  schema: public
+  options: ""

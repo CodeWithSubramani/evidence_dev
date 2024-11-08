@@ -1,0 +1,9 @@
+# This file was automatically generated
+name: datasets
+type: postgres
+options:
+  host: localhost
+  port: 46057
+  database: datasets
+  ssl:
+    rejectUnauthorized: false

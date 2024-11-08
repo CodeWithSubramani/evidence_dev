@@ -1,0 +1,9 @@
+# This file was automatically generated
+name: ml
+type: postgres
+options:
+  host: localhost
+  port: 45533
+  database: ml
+  ssl:
+    rejectUnauthorized: false
