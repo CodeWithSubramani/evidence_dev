@@ -1,4 +1,4 @@
 select
     *
 from
-    projects
+    public.projects;
