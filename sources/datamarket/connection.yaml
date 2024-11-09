@@ -3,7 +3,7 @@ name: datamarket
 type: postgres
 options:
   host: localhost
-  port: 35021
+  port: 31113
   database: datamarket
   ssl:
     rejectUnauthorized: false

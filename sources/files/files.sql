@@ -1,4 +1,4 @@
 select
     *
 from
-    public.quotas;
+    public.files;

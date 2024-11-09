@@ -1,10 +1,10 @@
 # This file was automatically generated
-name: files
+name: maps
 type: postgres
 options:
   host: localhost
-  port: 31115
-  database: files
+  port: 31117
+  database: maps
   ssl:
     rejectUnauthorized: false
   schema: public

@@ -1,10 +1,10 @@
 # This file was automatically generated
-name: files
+name: iam
 type: postgres
 options:
   host: localhost
-  port: 31115
-  database: files
+  port: 31116
+  database: iam
   ssl:
     rejectUnauthorized: false
   schema: public

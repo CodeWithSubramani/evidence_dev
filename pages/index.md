@@ -2,6 +2,10 @@
 title: Home Page
 ---
 
+```sql show_tables
+select * from datasets.show_tables;
+```
+
 ```sql users
   select
   cast(created_at as DATE) as registered_date,
@@ -32,13 +36,11 @@ title: Home Page
 <br/>
 <br/>
 
-<center>
 <Grid cols=2>
 
 <BigValue data={total_users} value=count_of_total_users/>
 <BigValue data={avg_users_per_day} value=avg_users_per_day/>
 
 </Grid>
-</center>
 
 <DataTable data={users}/>

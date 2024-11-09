@@ -3,7 +3,9 @@ name: datasets
 type: postgres
 options:
   host: localhost
-  port: 46057
+  port: 31114
   database: datasets
   ssl:
     rejectUnauthorized: false
+  schema: public
+  options: ""

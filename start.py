@@ -35,7 +35,7 @@ services = [
     ("tunnels", "tunnel-vectors-db", 31123, 5432),
 ]
 processes = []
-
+kill_process_on_port(3000)
 for namespace, service_name, local_port, target_port in services:
     kill_process_on_port(local_port)
     process = subprocess.Popen(
